@@ -1,5 +1,7 @@
 {
   "name": "ejaje",
   "owner": { "name": "krzyszur" },
-  "plugins": []
+  "plugins": [
+    { "name": "efficiency-kit", "source": "./plugins/efficiency-kit", "description": "Cost-efficient work with Claude: session handoffs and related workflow skills" }
+  ]
 }
