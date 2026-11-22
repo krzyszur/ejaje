@@ -2,6 +2,7 @@
   "name": "ejaje",
   "owner": { "name": "krzyszur" },
   "plugins": [
-    { "name": "efficiency-kit", "source": "./plugins/efficiency-kit", "description": "Cost-efficient work with Claude: session handoffs and related workflow skills" }
+    { "name": "efficiency-kit", "source": "./plugins/efficiency-kit", "description": "Cost-efficient work with Claude: session handoffs and related workflow skills" },
+    { "name": "3d-printing", "source": "./plugins/3d-printing", "description": "Preparing and checking models for FDM 3D printing" }
   ]
 }
