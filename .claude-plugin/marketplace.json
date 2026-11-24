@@ -1,7 +1,18 @@
 {
   "name": "ejaje",
-  "owner": { "name": "krzyszur" },
+  "owner": {
+    "name": "krzyszur"
+  },
   "plugins": [
-    { "name": "efficiency-kit", "source": "./plugins/efficiency-kit", "description": "Cost-efficient work with Claude: session handoffs and related workflow skills" }
+    {
+      "name": "efficiency-kit",
+      "source": "./plugins/efficiency-kit",
+      "description": "Cost-efficient work with Claude: session handoffs and related workflow skills"
+    },
+    {
+      "name": "engineering-kit",
+      "source": "./plugins/engineering-kit",
+      "description": "Engineering analysis workflows: design of experiments, simulation campaigns, surrogate models"
+    }
   ]
 }
